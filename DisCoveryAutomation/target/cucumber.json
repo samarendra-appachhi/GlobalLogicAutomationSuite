@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 12278359314,
+              "duration": 11468918470,
               "status": "passed"
             },
             "line": 5,
@@ -27,7 +27,7 @@
         "before": [
           {
             "result": {
-              "duration": 5821447573,
+              "duration": 5604284933,
               "status": "passed"
             },
             "match": {
@@ -42,7 +42,7 @@
         "after": [
           {
             "result": {
-              "duration": 4455199427,
+              "duration": 3396974980,
               "status": "passed"
             },
             "match": {
@@ -55,7 +55,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1315109422,
+              "duration": 1063766993,
               "status": "passed"
             },
             "line": 8,
@@ -67,7 +67,7 @@
           },
           {
             "result": {
-              "duration": 4062865062,
+              "duration": 3711457935,
               "status": "passed"
             },
             "line": 9,
@@ -79,7 +79,7 @@
           },
           {
             "result": {
-              "duration": 4515677676,
+              "duration": 4383904980,
               "status": "passed"
             },
             "line": 10,
@@ -91,7 +91,7 @@
           },
           {
             "result": {
-              "duration": 335321386,
+              "duration": 363731606,
               "status": "passed"
             },
             "line": 11,
@@ -103,7 +103,7 @@
           },
           {
             "result": {
-              "duration": 422523815,
+              "duration": 474849787,
               "status": "passed"
             },
             "line": 12,
@@ -115,13 +115,126 @@
           },
           {
             "result": {
-              "duration": 2727643435,
+              "duration": 2912832466,
               "status": "passed"
             },
             "line": 13,
             "name": "Validate the favorite or unfavorite titles under FAVORITE SHOWS”",
             "match": {
               "location": "DiscoveryStepDef.validate_the_favorite_or_unfavorite_titles_under_FAVORITE_SHOWS()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User in Discovery HomePage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 28632792449,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to discovery go website",
+            "match": {
+              "location": "DiscoveryStepDef.user_navigates_to_discovery_go_website()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4885840623,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DiscoveryStepDef.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Task 2",
+        "description": "",
+        "id": "discovery-website;task-2",
+        "after": [
+          {
+            "result": {
+              "duration": 2850023646,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DiscoveryStepDef.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 81707504,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Scroll down to popular shows",
+            "match": {
+              "location": "DiscoveryStepDef.scroll_down_to_popular_shows()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 943768669,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Go to the last video by pressing the icon \u003e",
+            "match": {
+              "location": "DiscoveryStepDef.go_to_the_last_video_by_pressing_the_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 175097829,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "click on EXPLORE THE SHOW",
+            "match": {
+              "location": "DiscoveryStepDef.click_on_EXPLORE_THE_SHOW()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5801449084,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User Click on SHOW MORE and you will see the list of shows and again Click on SHOW MORE and few shows will be added",
+            "match": {
+              "location": "DiscoveryStepDef.user_Click_on_SHOW_MORE_and_you_will_see_the_list_of_shows_and_again_Click_on_SHOW_MORE_and_few_shows_will_be_added()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1235917638,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Create a new file and write all the show titles and duration into it.",
+            "match": {
+              "location": "DiscoveryStepDef.create_a_new_file_and_write_all_the_show_titles_and_duration_into_it()"
             },
             "keyword": "Then "
           }

@@ -1,5 +1,8 @@
 package Utility;
 
+import java.io.FileOutputStream;
+import java.io.PrintWriter;
+
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -52,5 +55,7 @@ public class GenericMethods {
 
 		}
 	}
+	
+	
 
 }
