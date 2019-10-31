@@ -1,0 +1,2 @@
+# GlobalLogicAutomationSuite
+for demo purpose
