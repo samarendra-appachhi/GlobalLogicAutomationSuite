@@ -1,0 +1,137 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User in Discovery HomePage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12278359314,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to discovery go website",
+            "match": {
+              "location": "DiscoveryStepDef.user_navigates_to_discovery_go_website()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5821447573,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DiscoveryStepDef.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Task 1",
+        "description": "",
+        "id": "discovery-website;task-1",
+        "after": [
+          {
+            "result": {
+              "duration": 4455199427,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DiscoveryStepDef.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1315109422,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on the Select See All Shows available in Shows tab",
+            "match": {
+              "location": "DiscoveryStepDef.user_clicks_on_the_Select_See_All_Shows_available_in_Shows_tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4062865062,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on select the shows which contain APOLLO",
+            "match": {
+              "location": "DiscoveryStepDef.user_click_on_select_the_shows_which_contain_APOLLO()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4515677676,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify the Favorites icon status.",
+            "match": {
+              "location": "DiscoveryStepDef.verify_the_Favorites_icon_status()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 335321386,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Store all the favorite or unfavorite done titles in list.",
+            "match": {
+              "location": "DiscoveryStepDef.store_all_the_favorite_or_unfavorite_done_titles_in_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 422523815,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Once favorite or unfavorite is done, goto My Videos.",
+            "match": {
+              "location": "DiscoveryStepDef.once_favorite_or_unfavorite_is_done_goto_My_Videos()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2727643435,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Validate the favorite or unfavorite titles under FAVORITE SHOWS”",
+            "match": {
+              "location": "DiscoveryStepDef.validate_the_favorite_or_unfavorite_titles_under_FAVORITE_SHOWS()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Discovery WebSite",
+    "description": "GlobalLogic custom flow",
+    "id": "discovery-website",
+    "keyword": "Feature",
+    "uri": "src/test/java/FeaturesFiles/discovery.feature"
+  }
+]
